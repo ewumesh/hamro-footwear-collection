@@ -1,7 +1,7 @@
 import React from "react";
-import Banner1 from "../../assets/images/banner_1.jpg";
-import Banner2 from "../../assets/images/banner_2.jpg";
-import Banner3 from "../../assets/images/banner_3.jpg";
+import Banner1 from "../../assets/images/women.jpg";
+import Banner2 from "../../assets/images/man.jpg";
+import Banner3 from "../../assets/images/kid.jpg";
 
 function CategoryBanner(props) {
   return (
@@ -17,7 +17,7 @@ function CategoryBanner(props) {
               data-aos="fade-right"
             >
               <div className="banner_category">
-                <a href="categories.html">Men's</a>
+                <a href="categories.html">Women's</a>
               </div>
             </div>
           </div>
@@ -30,7 +30,7 @@ function CategoryBanner(props) {
               data-aos="fade-up"
             >
               <div className="banner_category">
-                <a href="categories.html">Women's</a>
+                <a href="categories.html">Men's</a>
               </div>
             </div>
           </div>
@@ -43,7 +43,7 @@ function CategoryBanner(props) {
               data-aos="fade-left"
             >
               <div className="banner_category">
-                <a href="categories.html">Children</a>
+                <a href="categories.html">Kid's</a>
               </div>
             </div>
           </div>

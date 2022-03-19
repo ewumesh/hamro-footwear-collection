@@ -1,9 +1,9 @@
 
 import React from "react";
 
-import BackgroundImage1 from "../../assets/images/slider_1.jpg";
-import BackgroundImage2 from "../../assets/images/slider_2.jpg";
-import BackgroundImage3 from "../../assets/images/slider_3.jpg";
+import BackgroundImage1 from "../../assets/images/caliber.jpg";
+import BackgroundImage2 from "../../assets/images/goldstar.jpg";
+import BackgroundImage3 from "../../assets/images/vans.jpeg";
 import { Carousel } from "react-bootstrap";
 
 function HomeBanner(props) {
@@ -20,7 +20,7 @@ function HomeBanner(props) {
             <div className="row align-items-center fill_height">
               <div className="col">
                 <div className="main_slider_content" data-aos="fade-right">
-                  <h6>Spring / Summer Collection 2017</h6>
+                  <h6>Spring / Summer Collection 2022</h6>
                   <h1>Get up to 30% Off New Arrivals</h1>
                   <div className="red_button shop_now_button">
                     <a href="#">shop now</a>
