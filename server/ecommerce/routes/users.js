@@ -23,7 +23,7 @@ router.post('/signin', function (req, res, next) {
     let err = new TypedError('signin error', 400, 'missing_field', {
       errors: missingFieldErrors,
     })
-    return next(err)
+    return next(err);
   }
   req.checkBody('email', 'Email is not valid').isEmail();
   req.checkBody('password', 'Passwords have to match').equals(req.body.verifyPassword);
