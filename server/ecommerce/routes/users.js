@@ -11,7 +11,7 @@ const Variant = require('../models/Variant')
 const TypedError = require('../modules/ErrorHandler')
 
 
-//POST /signin
+//POST /signin // register
 router.post('/signin', function (req, res, next) {
   const { fullname, email, password, verifyPassword } = req.body
   req.checkBody('fullname', 'fullname is required').notEmpty();
